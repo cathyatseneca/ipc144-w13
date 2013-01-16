@@ -1,0 +1,30 @@
+<html>
+<head>
+	<script src="popcorn-complete.min.js"></script>
+
+<script>
+Popcorn( function(){
+var popcorn = Popcorn.smart("#video", [ "http://www.youtube.com/watch?v=b1NJ8r5S9uU"], {controls:1});
+
+popcorn
+.footnote({
+  "start": ,
+  "end": ,
+  "target": "subtitle-div",
+  "text": ""
+})
+;
+});
+</script>
+</head>
+<body>
+    <div id="left-panel" style="width:640px;">
+    <div id="video" style="width:640px; height:440px;"></div>
+    <div id="subtitle-div" class="video subtitle-div" style="font-size:large;width:640px;"></div>
+    </div>
+    <div id="right-panel">
+      <div id="top-right"></div>
+      <div id="bottom-right"></div>
+    </div>
+</body>
+</html>

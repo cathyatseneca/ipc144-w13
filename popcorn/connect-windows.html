@@ -1,0 +1,121 @@
+<html>
+<head>
+	<script src="popcorn-complete.min.js"></script>
+
+<script>
+Popcorn( function(){
+var popcorn = Popcorn.smart("#video", [ "http://www.youtube.com/watch?v=vGfEYZcnw2c"], {controls:1});
+
+popcorn
+.footnote({
+  "start": 0,
+  "end": 5,
+  "target": "subtitle-div",
+  "text": "hello this video is for students taking ipc144 at seneca college"
+})
+.footnote({
+  "start": 5,
+  "end": 11,
+  "target": "subtitle-div",
+  "text": "it will show you how to connect to matrix if you are using a windows machine"
+}).footnote({
+  "start": 11,
+  "end": 17,
+  "target": "subtitle-div",
+  "text": "in order to connect to matrix from windows you're going to need some sort of terminal program"
+}).footnote({
+  "start": 17,
+  "end": 24,
+  "target": "subtitle-div",
+  "text": "there are many available but the one that I will be using is called putty it is the one that is also available on the school's computer"
+}).footnote({
+  "start": 24,
+  "end": 30,
+  "target": "subtitle-div",
+  "text": "once you have putty installed, it's actually just an executable, and you start it up"
+}).footnote({
+  "start": 30,
+  "end": 40,
+  "target": "subtitle-div",
+  "text": "what you will see is this configuration window where you will be able to set the address of the machine you that you want to connect to and so on"
+}).footnote({
+  "start": 40,
+  "end": 50,
+  "target": "subtitle-div",
+  "text": "so for host name we are going to type in matrix.senecac.on.ca make sure the setting here is ssh"
+}).footnote({
+  "start": 50,
+  "end": 58,
+  "target": "subtitle-div",
+  "text": "also go under terminal, keyboard setting and select control-h"
+}).footnote({
+  "start": 58,
+  "end": 62,
+  "target": "subtitle-div",
+  "text": "if we go back to session we will be able to connect"
+})
+.footnote({
+  "start": 62,
+  "end": 72,
+  "target": "subtitle-div",
+  "text": "it is often useful to save your setting so that the next time you start you don't have to set the keyboard setting or even type in the address"
+})
+.footnote({
+  "start": 72,
+  "end": 83,
+  "target": "subtitle-div",
+  "text": "so I'm going to save this to the matrix profile and next time I connect I just have to click this and hit load and and all the settings will be automatically filled in for me"
+}).footnote({
+  "start": 83,
+  "end": 87,
+  "target": "subtitle-div",
+  "text": "and then we hit the open button to start"
+}).footnote({
+  "start": 87,
+  "end": 92,
+  "target": "subtitle-div",
+  "text": "and as you can see it brings up a terminal program and has 'login as:'"
+}).footnote({
+  "start": 92,
+  "end": 99,
+  "target": "subtitle-div",
+  "text": "so this window is a connection to matrix already.  I simply have to login using my seneca id"
+}).footnote({
+  "start": 99,
+  "end": 107,
+  "target": "subtitle-div",
+  "text": "so here I type the name portion of the id, I don't have to put in anything else,in fact I shouldn't"
+}).footnote({
+  "start": 107,
+  "end": 115,
+  "target": "subtitle-div",
+  "text": "and then my password"
+}).footnote({
+  "start": 115,
+  "end": 128,
+  "target": "subtitle-div",
+  "text": "and we're connected to matrix and any commands that I now issue in this window will happen on matrix and not my local machine"
+}).footnote({
+  "start": 128,
+  "end": 132,
+  "target": "subtitle-div",
+  "text": "thats everything, thank you very much"
+})
+;
+
+});
+</script>
+</head>
+<body>
+    <div style="width: 1000px;">
+    <div id="left-panel" style="width:640px; float:left;">
+    <div id="video" style="width:640px; height:440px;"></div>
+    <div id="subtitle-div" class="video subtitle-div" style="font-size:large;width:640px;"></div>
+    </div>
+    <div id="right-panel" style="width:350px;float:right;">
+      <div id="top-right"></div>
+      <div id="bottom-right"></div>
+    </div>
+  </div>
+</body>
+</html>

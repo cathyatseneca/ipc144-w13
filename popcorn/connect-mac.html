@@ -1,0 +1,105 @@
+<html>
+<head>
+	<script src="popcorn-complete.min.js"></script>
+
+<script>
+Popcorn( function(){
+var popcorn = Popcorn.smart("#video", [ "http://www.youtube.com/watch?v=b1NJ8r5S9uU"], {controls:1});
+
+popcorn
+.footnote({
+  "start": 0.0,
+  "end": 4.0,
+  "target": "subtitle-div",
+  "text": "Hello this video is for students taking ipc144 at seneca college."
+})
+.footnote({
+  "start": 4.0,
+  "end": 9.0,
+  "target": "subtitle-div",
+  "text": "It is going to show you how to connnect to matrix using your mac."
+})
+.footnote({
+  "start": 9.0,
+  "end": 22.0,
+  "target": "subtitle-div",
+  "text": "To connect to matrix what you need is the terminal program which you can access via the application folder, and then the utilities folder within that and then the terminal program right here"
+})
+.footnote({
+  "start": 22.0,
+  "end": 30.0,
+  "target": "subtitle-div",
+  "text": "If you don't have this installed you can find it on the supplementry disc that came with your computer or you can probably find it on the app store as well"
+})
+.footnote({
+  "start": 30.0,
+  "end": 36.0,
+  "target": "subtitle-div",
+  "text": "In any case you start it up and this brings you to a command prompt"
+})
+.footnote({
+  "start": 36.0,
+  "end": 43.0,
+  "target": "subtitle-div",
+  "text": "Anything that I type here, any commands that I execute here will execute on the machine in front of me"
+})
+.footnote({
+  "start": 43.0,
+  "end": 48.0,
+  "target": "subtitle-div",
+  "text": "If I want to connect to a different machine I have to issue an ssh command"
+})
+.footnote({
+  "start": 48.0,
+  "end": 57.0,
+  "target": "subtitle-div",
+  "text": "And how I do that is I simply type ssh mysenecauserid@matrix.senecac.on.ca"
+})
+.footnote({
+  "start": 57.0,
+  "end": 62.0,
+  "target": "subtitle-div",
+  "text": "and then my password"
+})
+.footnote({
+  "start": 62.0,
+  "end": 65.0,
+  "target": "subtitle-div",
+  "text": "and now I'm connected"
+}).footnote({
+  "start": 65.0,
+  "end": 73.0,
+  "target": "subtitle-div",
+  "text": "so you can see I'm connected to a different machine because the prompt has changed here so I'm actually on matrix"
+}).footnote({
+  "start": 73.0,
+  "end": 80.0,
+  "target": "subtitle-div",
+  "text": "If I issue a command here what will happen is that it will execute on matrix and these are the files that are available on matrix for me"
+})
+.footnote({
+  "start": 80.0,
+  "end": 84.0,
+  "target": "subtitle-div",
+  "text": "they are not on my local machine they are on matrix"
+})
+.footnote({
+  "start": 84.0,
+  "end": 90.0,
+  "target": "subtitle-div",
+  "text": "thats everything thank you!"
+});
+});
+</script>
+</head>
+<body>
+    <div id="left-panel" style="width:640px;">
+    <div id="video" style="width:640px; height:440px;"></div>
+    <div id="subtitle-div" class="video subtitle-div" style="font-size:large;width:640px;"></div>
+    </div>
+    <div id="right-panel">
+      <div id="top-right"></div>
+      <div id="bottom-right"></div>
+    </div>
+</body>
+</html>
