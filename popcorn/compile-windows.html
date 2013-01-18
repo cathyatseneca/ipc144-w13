@@ -1,0 +1,295 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ipc144-w13 by cathyatseneca</title>
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<script src="popcorn-complete.min.js"></script>
+
+<script>
+Popcorn( function(){
+var popcorn = Popcorn.smart("#video", [ "http://www.youtube.com/watch?v=_J7RWjpBwYo"], {controls:1});
+
+popcorn
+.footnote({
+  "start": 0,
+  "end": 5,
+  "target": "subtitle-div",
+  "text": "Hello this video is for students taking ipc 144 at seneca college"
+})
+.footnote({
+  "start": 5,
+  "end": 12,
+  "target": "subtitle-div",
+  "text": "In this video I will show you how to write and compile programs on your local windows computer"
+})
+.footnote({
+  "start": 12,
+  "end": 20,
+  "target": "subtitle-div",
+  "text": "The reason that you will want to know how to do this as opposed to just writing programs on matrix and working that way"
+})
+.footnote({
+  "start": 20,
+  "end": 27,
+  "target": "subtitle-div",
+  "text": "is because there will be times when you will want to write a program and you won't have a connection to the internet"
+})
+.footnote({
+  "start": 27,
+  "end": 34,
+  "target": "subtitle-div",
+  "text": "and in those times, you won't be able to connect to matrix, so knowing how to do this is really useful"
+})
+.footnote({
+  "start": 34,
+  "end": 37,
+  "target": "subtitle-div",
+  "text": "in order to write a program all you really need is a text editor"
+})
+.footnote({
+  "start": 37,
+  "end": 44,
+  "target": "subtitle-div",
+  "text": "in order to translate that program into something the computer understand you will also need a compiler"
+})
+.footnote({
+  "start": 44,
+  "end": 50,
+  "target": "subtitle-div",
+  "text": "so the text editor I'm using is sublime text 2"
+})
+.footnote({
+  "start": 50,
+  "end": 57,
+  "target": "subtitle-div",
+  "text": "Whichever editor you want to use is fine, there is no correct one, its whatever you are most comfortable with"
+})
+
+.footnote({
+  "start": 57,
+  "end": 62,
+  "target": "subtitle-div",
+  "text": "for our compiler we will be using visual studio"
+})
+.footnote({
+  "start": 62,
+  "end": 66,
+  "target": "subtitle-div",
+  "text": "here you can see I have the code already written"
+})
+.footnote({
+  "start": 66,
+  "end": 78,
+  "target": "subtitle-div",
+  "text": "Any text editor will allow you to do the same things, you save the code as a simple file on your computer somewhere"
+})
+.footnote({
+  "start": 78,
+  "end": 83,
+  "target": "subtitle-div",
+  "text": "For me, I have saved it onto my desktop to make it easy to find"
+})
+.footnote({
+  "start": 83,
+  "end": 92,
+  "target": "subtitle-div",
+  "text": "In order for me to translate this into something the computer understands I need to use the compiler"
+})
+.footnote({
+  "start": 92,
+  "end": 100,
+  "target": "subtitle-div",
+  "text": "Once you have installed visual studio, what you will find is that you then have something called visual studio tools"
+})
+.footnote({
+  "start": 100,
+  "end": 105,
+  "target": "subtitle-div",
+  "text": "Make sure you do install the command line tools when you install visual studio"
+})
+.footnote({
+  "start": 105,
+  "end": 110,
+  "target": "subtitle-div",
+  "text": "What that means is that you will have a visual studio command prompt"
+})
+.footnote({
+  "start": 110,
+  "end": 115,
+  "target": "subtitle-div",
+  "text": "So its under visual studio tools and over here"
+})
+.footnote({
+  "start": 120,
+  "end": 125,
+  "target": "subtitle-div",
+  "text": "Now when you bring it up what you will find is a window that what many of you will recognize as an ms dos prompt"
+})
+.footnote({
+  "start": 125,
+  "end": 136,
+  "target": "subtitle-div",
+  "text": "what this is, is an ms dos prompt that has some environment variables set up properly so that the compiler knows where to find libraries and files and so on"
+})
+.footnote({
+  "start": 136,
+  "end": 144,
+  "target": "subtitle-div",
+  "text": "If you bring up a regular ms dos prompt your program won't compile because it won't find all the things it needs to put your program together"
+})
+.footnote({
+  "start": 144,
+  "end": 148,
+  "target": "subtitle-div",
+  "text": "So when it brings it up, this is the path it is in"
+})
+.footnote({
+  "start": 148,
+  "end": 152,
+  "target": "subtitle-div",
+  "text": "I'm going to go to the path where my program is"
+})
+.footnote({
+  "start": 152,
+  "end": 163,
+  "target": "subtitle-div",
+  "text": "...to the desktop"
+})
+.footnote({
+  "start": 163,
+  "end": 170,
+  "target": "subtitle-div",
+  "text": "and once I am here I can see I have a program called hello.c"
+})
+.footnote({
+  "start": 170,
+  "end": 183,
+  "target": "subtitle-div",
+  "text": "In order for me to translate it I simply have to compile the program"
+})
+.footnote({
+  "start": 183,
+  "end": 187,
+  "target": "subtitle-div",
+  "text": 'To do this I type "cl hello.c"'
+})
+.footnote({
+  "start": 187,
+  "end": 197,
+  "target": "subtitle-div",
+  "text": "cl is essentially the same thing as gcc on matrix, it does the same job"
+})
+.footnote({
+  "start": 197,
+  "end": 205,
+  "target": "subtitle-div",
+  "text": "It is calling the C compiler from visual studio instead to do the translation"
+})
+.footnote({
+  "start": 205,
+  "end": 212,
+  "target": "subtitle-div",
+  "text": "what this will do is it will translate this program to machine language for me"
+})
+.footnote({
+  "start": 212,
+  "end": 217,
+  "target": "subtitle-div",
+  "text": "and when I run it says that there are these files for me"
+})
+.footnote({
+  "start": 217,
+  "end": 224,
+  "target": "subtitle-div",
+  "text": "If I now type dir I notice there is an executable and an obj file"
+})
+.footnote({
+  "start": 224,
+  "end": 228,
+  "target": "subtitle-div",
+  "text": "don't worry about the obj file, you won't need this file"
+})
+.footnote({
+  "start": 228,
+  "end": 237,
+  "target": "subtitle-div",
+  "text": "The hello.exe file is equivalent to a.out on matrix, it is the actual program the machine runs"
+})
+.footnote({
+  "start": 237,
+  "end": 241,
+  "target": "subtitle-div",
+  "text": "If I type hello right now, it runs the program"
+})
+.footnote({
+  "start": 241,
+  "end": 250,
+  "target": "subtitle-div",
+  "text": "so this is how you can write programs on your local machines and test it out if you wish to do so"
+})
+.footnote({
+  "start": 250,
+  "end": 253,
+  "target": "subtitle-div",
+  "text": "Thank you"
+})
+;
+popcorn
+.text({
+  "start":37,
+  "end":60,
+  "text":'Here are some text editors, <ul><li><a href="http://www.sublimetext.com/"> sublime text </a> is cross platform (windows, mac and linux)</li><li><a href="http://notepad-plus-plus.org/">notepad++</a> is free</li><li><a href="http://www.editplus.com/">edit plus</a></li></ul>choose one you like<br><br>',
+  "target":"top-right" 
+})
+.text({
+  "start":37,
+  "end":60,
+  "text":'Seneca Students can get Visual Studio through the school, go to the following link and then choose software-->software downloads.  It will ask you for your seneca id and password.  Once there choose msdn from menu at the top, scroll down till you find visual studio:<br><a href="https://inside.senecac.on.ca/clientservices">Seneca Client Services</a>',
+  "target":"bottom-right" 
+})
+});
+</script>
+</head>
+<body>
+  <div id="header">
+    <nav>
+      <li class="fork"><a href="https://github.com/cathyatseneca/ipc144-w13">View On GitHub</a></li>
+      <li class="downloads"><a href="https://github.com/cathyatseneca/ipc144-w13/zipball/master">ZIP</a></li>
+      <li class="downloads"><a href="https://github.com/cathyatseneca/ipc144-w13/tarball/master">TAR</a></li>
+      <li class="title">DOWNLOADS</li>
+    </nav>
+  </div><!-- end header -->
+  <div class="wrapper">
+    <section>
+      <div id="title">
+        <h1>How to write and compile a program Windows</h1>
+        <hr>
+        <span class="credits left">Project maintained by <a href="https://github.com/cathyatseneca">cathyatseneca</a></span>
+        <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+      </div>
+      <div style="width: 850px;">
+        <div id="left-panel" style="width:640px; float:left;">
+          <div id="video" style="width:640px; height:440px;"></div>
+          <div id="subtitle-div" class="video subtitle-div" style="font-size:large;width:640px;"></div>
+        </div>
+        <div id="right-panel" style="width:200px;float:right;">
+          <div id="top-right" ></div>
+          <div id="bottom-right"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+</body>
+</html>
