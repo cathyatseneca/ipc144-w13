@@ -4,7 +4,6 @@
 //#include is a preprocessor statement
 //you need this if you want to use input or output statements
 #include <stdio.h>
-
 //below is our main function
 //it returns(gives back) an integer
 //it takes as arguments void or in otherwords nothing
