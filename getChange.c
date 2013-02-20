@@ -1,5 +1,5 @@
 /*Write a function called getChange that will calculate the number of each
-type of coins (toonies, loonies, quarters, dimes, nickels) necessary to
+type of coins (toonies, loonies, quarters, dimes, nickels) necessary to 
 make up an amount of money.  Given that we no longer have pennies in
 Canada, we should apply the new rules of change giving where the value is
 rounded down to the nearest 5 cent if the amt ends in a 1, 2, 6 or 7.  It
@@ -39,6 +39,5 @@ void getChange(double moneyAmt,int* toonies, int* loonies, int* quarters,
 
   *nickles = moneyInPennies / 5;
   moneyInPennies = moneyInPennies % 5;
-
 
 }
