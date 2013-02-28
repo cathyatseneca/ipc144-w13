@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /*this program will prompt the user to enter two values.  It will then swap
   their values if the first number is not smaller than the second*/
 
@@ -10,7 +12,8 @@ int main(void){
   if(getValues(&x,&y) == 0){
     swap(&x,&y);
   }
-  printf("The smaller number is: %d\n",
+  printf("The smaller number is: %d\n", x);
+  printf("The bigger number is: %d\n", y);
 }
 
 /*this function will read and pass back two values.  If the first value

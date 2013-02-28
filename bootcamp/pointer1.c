@@ -1,3 +1,4 @@
+#include <stdio.h>
 /*
   this function will pass back the first and last digit of value through
   the pointers first and last
@@ -9,6 +10,8 @@ int main(void){
   printf("This program will show you the first and last digit of a number\n");
   scanf("%d",&input);
   getFirstLastDigit(input,&firstdigit,&lastdigit);
+  printf("first digit is\n",firstdigit);
+  printf("last digit is \n",lastdigit);
 }
 
 void getFirstLastDigit(int value, int* first, int* last){
