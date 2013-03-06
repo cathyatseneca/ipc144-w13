@@ -19,19 +19,11 @@ int main(void){
 /*this function will read and pass back two values.  If the first value
   is smaller than the second, it will return a true value, false otherwise*/
 int getValues(int *a,int* b){
-  int rc=0;
-  scanf("%d %d",a,b);
-  if(*a < * b){
-    rc=1;
-  }
-  return rc;
+
 }
 
 /*this function will swap two values.  In other words the variable pointed
   to by a will hold the value in the variable pointed to by b and vice 
   versa*/
 void swap(int* a,int* b){
-  int temp=*a;
-  *a = *b;
-  *b = temp;
 }

@@ -10,10 +10,15 @@ int main(void){
   printf("This program will show you the first and last digit of a number\n");
   scanf("%d",&input);
   getFirstLastDigit(input,&firstdigit,&lastdigit);
-  printf("first digit is\n",firstdigit);
-  printf("last digit is \n",lastdigit);
+  printf("first digit is %d\n",firstdigit);
+  printf("last digit is %d\n",lastdigit);
 }
 
 void getFirstLastDigit(int value, int* first, int* last){
-  //fill in code here
+  *last=value%10;
+  *first=value;
+  while(*first >=10){
+    *first=*first/10;
+  }
+
 }

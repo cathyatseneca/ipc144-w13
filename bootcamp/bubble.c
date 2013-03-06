@@ -3,6 +3,7 @@ int swap(int* a,int* b);
 void bubbleSort(int arr[],int size);
 int readArray(int arr[],int maxSize);
 
+/*don't alter this main*/
 int main(void){
   int array[200];
   int sz;
@@ -16,8 +17,8 @@ int main(void){
   }
 }
 
-/*This function reads values into an array and return the number of values
-  read in*/
+/*Don't alter this function.  This function reads values into an array and 
+return the number of values  read in*/
 int readArray(int arr[],int maxSize){
   int numValues=0;
   printf("Please enter some values, use any non-numeric character to exit\n");
