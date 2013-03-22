@@ -1,0 +1,6 @@
+001;marker-black;1.00
+002;marker-blue;1.00
+003;paper-100 sheets;2.00
+004;computer;1000.00
+005;gaming computer;3000.00
+
