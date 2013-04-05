@@ -12,6 +12,7 @@ int main(void){
     char magName[41];
     char title[61];
     int magYear;
+    printf("Headline articles for %d\n",year);
     while(fscanf(fp,"%[^;];%[^;];%d\n", magName, title, &magYear)==3){
       if(year == magYear){
         printf("%s - %s\n", magName, title);
