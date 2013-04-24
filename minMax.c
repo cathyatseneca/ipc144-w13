@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define MAX 50000
+#define MAX 50001
 
 void minMax(int arr[],int sz,int* min, int* max){
   int i;
